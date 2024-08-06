@@ -1,8 +1,11 @@
 {
+  "redirects": [{"source": "/",       "destination": "/esg",       "permanent": true     }
+],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "https://uploads-ssl.webflow.com/$1"
- }
+    }
   ]
 }
+    
