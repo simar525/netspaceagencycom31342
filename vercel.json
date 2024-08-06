@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://uploads-ssl.webflow.com/$1"
+ }
+  ]
+}
