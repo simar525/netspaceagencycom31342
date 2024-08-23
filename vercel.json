@@ -1,11 +1,13 @@
 {
-  "redirects": [{"source": "/",       "destination": "/esg",       "permanent": true     },{"source": "/661801e841faf3d4fefab511/6688638e8e8952a0017a4ee6_Report-ESG-2023.pdf#page=21",       "destination": "/assets/Report-ESG-2023.pdf",       "permanent": true     },{"source": "/6688638e8e8952a0017a4ee6_Report-ESG-2023.pdf#page=21",       "destination": "/assets/Report-ESG-2023.pdf#page=21",       "permanent": true     }
-],
+  "redirects": [],
   "rewrites": [
+    {
+      "source": "/assets/Report-ESG-2023.pdf",
+      "destination": "https://cdn.prod.website-files.com/661801e841faf3d4fefab511/6688638e8e8952a0017a4ee6_Report-ESG-2023.pdf#page=21"
+    },
     {
       "source": "/(.*)",
       "destination": "https://uploads-ssl.webflow.com/$1"
     }
   ]
 }
-    
